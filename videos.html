@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - Studio Nova</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="/images/studio nova.png" alt="Studio Nova Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Iniciar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logos.html">Logos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="flyers.html">Flyers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="listados.html">Listados</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="page-header">
+        <div class="container">
+            <h1 class="animate__animated animate__fadeInDown">Producción de Videos</h1>
+            <p class="lead animate__animated animate__fadeInUp">Creamos videos de alta calidad para promocionar tu marca</p>
+        </div>
+    </header>
+
+
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="content-card animate__animated animate__fadeInLeft">
+                        <h3>Sube tu Video</h3>
+                        <p>¿Ya tienes un video? Súbelo aquí para recibir feedback o solicitar ediciones.</p>
+                        <div class="upload-container mt-4">
+                            <i class="bi bi-film fs-1 mb-3"></i>
+                            <h4>Arrastra y suelta tu archivo</h4>
+                            <p>o</p>
+                            <label for="video-upload" class="btn btn-outline-light">Seleccionar Archivo</label>
+                            <input type="file" id="video-upload" class="d-none" accept="video/*">
+                            <p class="mt-3 small">Formatos aceptados: MP4, MOV, AVI. Máximo 100MB.</p>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary">Subir Video</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="content-card animate__animated animate__fadeInRight">
+                        <h3>Acerca de Nuestros Videos</h3>
+                        <p>En Studio Nova, creamos videos que cuentan historias impactantes y conectan con tu audiencia. Nuestros videos son:</p>
+                        <ul class="mt-3">
+                            <li>Profesionales y de alta calidad</li>
+                            <li>Creativos y originales</li>
+                            <li>Adaptados a tus necesidades y objetivos</li>
+                            <li>Optimizados para diferentes plataformas</li>
+                            <li>Diseñados para generar engagement</li>
+                        </ul>
+                        <p class="mt-3">Desde videos corporativos hasta contenido para redes sociales, te ayudamos a comunicar tu mensaje de manera efectiva a través del poder del video.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="content-card animate__animated animate__fadeInUp">
+                        <h3 class="text-center mb-4">Ejemplo de Video</h3>
+                        <div class="ratio ratio-16x9">
+                            <video controls class="embed-responsive-item">
+                                <source src="/images/VIDEO TIPS.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="mt-4">
+                            <h4>Descripción del Video</h4>
+                            <p>Este video muestra un ejemplo de nuestro trabajo de producción audiovisual. Utilizamos técnicas avanzadas de filmación y edición para crear contenido visualmente atractivo que destaca la esencia de la marca y comunica su mensaje de manera efectiva.</p>
+                            <p>La combinación de imágenes de alta calidad, música cuidadosamente seleccionada y una narrativa convincente crea una experiencia inmersiva que captura la atención del espectador y genera una conexión emocional con la marca.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="content-card animate__animated animate__fadeInUp">
+                        <h3 class="text-center mb-4">Nuestros Servicios de Video</h3>
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-4">
+                                <div class="service-item">
+                                    <div class="service-icon mb-3">
+                                        <i class="bi bi-building fs-1"></i>
+                                    </div>
+                                    <h4>Videos Corporativos</h4>
+                                    <p>Presentaciones de empresa, testimoniales y videos institucionales</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center mb-4">
+                                <div class="service-item">
+                                    <div class="service-icon mb-3">
+                                        <i class="bi bi-bag fs-1"></i>
+                                    </div>
+                                    <h4>Videos de Producto</h4>
+                                    <p>Demostraciones, unboxing y presentaciones de productos</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center mb-4">
+                                <div class="service-item">
+                                    <div class="service-icon mb-3">
+                                        <i class="bi bi-instagram fs-1"></i>
+                                    </div>
+                                    <h4>Contenido para Redes</h4>
+                                    <p>Videos cortos y atractivos para Instagram, TikTok y más</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/images/studio nova.png" alt="Studio Nova Logo" class="footer-logo">
+                    <p>Diseño creativo y minimalista para tu marca</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Contacto</h4>
+                    <ul class="contact-info">
+                        <li><i class="bi bi-whatsapp"></i> WhatsApp: 11-3178-1487</li>
+                        <li><i class="bi bi-instagram"></i> Instagram: studio.e-nova</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 Studio Nova. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
